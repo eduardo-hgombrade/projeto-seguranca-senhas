@@ -1,8 +1,8 @@
-# 🔐 Sistema de Auditoria e Classificação de Senhas
+# 🔐 Senhas em Risco: Uma Análise de Big Data sobre Segurança Digital de Credenciais
 
 ## 📖 Sobre o Projeto
 
-O **Sistema de Auditoria e Classificação de Senhas** foi desenvolvido com o objetivo de analisar grandes bases de dados contendo senhas, identificando padrões de uso, classificando níveis de segurança e destacando credenciais potencialmente vulneráveis.
+O **Senhas em Risco: Uma Análise de Big Data sobre Segurança Digital de Credenciais** foi desenvolvido com o objetivo de analisar grandes bases de dados contendo senhas, identificando padrões de uso, classificando níveis de segurança e destacando credenciais potencialmente vulneráveis.
 
 A ferramenta auxilia na conscientização sobre boas práticas de segurança digital, permitindo detectar senhas fracas, repetidas e frequentemente utilizadas, contribuindo para a redução de riscos relacionados à autenticação de usuários.
 
