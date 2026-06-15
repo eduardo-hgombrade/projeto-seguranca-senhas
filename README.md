@@ -1,75 +1,40 @@
-# 🔐 Senhas em Risco: Uma Análise de Big Data sobre Segurança Digital de Credenciais
+# 🔐 Senhas em Risco: Big Data e Segurança Digital
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
+![Parquet](https://img.shields.io/badge/Data-Apache%20Parquet-orange.svg)
 
 ## 📖 Sobre o Projeto
+O **Senhas em Risco** é uma aplicação de análise de Big Data voltada para a conscientização em Segurança da Informação. O projeto processa e analisa grandes volumes de dados de vazamentos reais (Data Breaches) para identificar vulnerabilidades matemáticas e comportamentais na criação de senhas.
 
-O **Senhas em Risco: Uma Análise de Big Data sobre Segurança Digital de Credenciais** foi desenvolvido com o objetivo de analisar grandes bases de dados contendo senhas, identificando padrões de uso, classificando níveis de segurança e destacando credenciais potencialmente vulneráveis.
+O produto final é um **Dashboard Interativo** que traduz métricas complexas de criptografia (Entropia) e Engenharia Social em visualizações acessíveis, demonstrando o tempo estimado para quebra de credenciais via ataques de força bruta.
 
-A ferramenta auxilia na conscientização sobre boas práticas de segurança digital, permitindo detectar senhas fracas, repetidas e frequentemente utilizadas, contribuindo para a redução de riscos relacionados à autenticação de usuários.
-
-> **Importante:** Este projeto possui finalidade exclusivamente acadêmica e educacional. Nenhuma senha real deve ser exposta ou utilizada de forma indevida.
-
----
-
-## 🎯 Objetivos
-
-* Identificar senhas consideradas fracas ou vulneráveis.
-* Classificar senhas de acordo com critérios de segurança.
-* Detectar padrões recorrentes em bases de dados.
-* Gerar estatísticas sobre o uso de senhas.
-* Auxiliar em estudos relacionados à Segurança da Informação.
+> **Importante:** Este projeto possui finalidade exclusivamente acadêmica e educacional (Extensão Universitária).
 
 ---
 
-## ⚙️ Funcionalidades
-
-* ✔️ Leitura de arquivos contendo listas de senhas.
-* ✔️ Análise de complexidade das senhas.
-* ✔️ Identificação das senhas mais utilizadas.
-* ✔️ Classificação por nível de segurança.
-* ✔️ Geração de relatórios estatísticos.
-* ✔️ Detecção de padrões inseguros.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* Python
-* Pandas
-* NumPy
-* CSV
-* Git & GitHub
+## 🚀 Arquitetura e Tecnologias
+O sistema foi desenvolvido sob uma arquitetura de dados robusta:
+* **Pipeline ETL:** Extração, limpeza e enriquecimento de dados utilizando `Pandas` e `NumPy`.
+* **Motor NLP/Regex:** Algoritmos em Python para identificar padrões humanos (Engenharia Social) em senhas.
+* **Processamento Otimizado:** Transição de CSV para o formato colunar **Apache Parquet** (`PyArrow`), garantindo alta velocidade de leitura (I/O).
+* **Data Visualization:** Geração de gráficos interativos e *Data Storytelling* com `Plotly`.
+* **Interface Web:** *Deploy* do Dashboard interativo construído em `Streamlit`.
 
 ---
 
-## 📊 Critérios de Avaliação
-
-As senhas podem ser classificadas considerando fatores como:
-
-* Tamanho da senha;
-* Presença de letras maiúsculas e minúsculas;
-* Utilização de números;
-* Utilização de caracteres especiais;
-* Frequência de ocorrência na base de dados;
-* Presença em listas de senhas conhecidamente vulneráveis.
+## 🎯 Funcionalidades do Dashboard
+* 🧮 **Calculadora de Entropia:** Demonstração matemática da força de uma senha.
+* ⏱️ **Estimativa de Quebra:** Tempo necessário para invasão via *Brute Force*.
+* 📊 **Análise Comportamental:** Gráficos interativos revelando os padrões de senhas mais usados no Brasil e no mundo.
+* 📜 **Timeline de Vazamentos:** Histórico visual dos maiores incidentes de segurança cibernética (2004-2024).
 
 ---
 
-## 👥 Equipe
-
-### Integrantes
-
-* Eduardo Hennes Gombrade
-* João Victor Romagnoli Vendito
-* Leandro Schiavo de Oliveira
+## 👥 Equipe de Desenvolvimento
+* **Eduardo Hennes Gombrade** - Engenharia de Dados & Backend (Pipeline ETL)
+* **Leandro Schiavo de Oliveira** - Ciência de Dados & Frontend (Streamlit / UI)
+* **João Victor Romagnoli Vendito** - Pesquisa Acadêmica & Gestão de Projetos (Documentação)
 
 ---
-
-## 🎓 Projeto Acadêmico
-
-Projeto desenvolvido para a disciplina de Tópicos de Big Data em Python, com foco na análise, auditoria e classificação de senhas para fins educacionais e de pesquisa.
-
----
-
-## 📄 Licença
-
-Este projeto é destinado a fins acadêmicos e educacionais.
+*Projeto desenvolvido para a disciplina de Tópicos de Big Data em Python (UniMetrocamp Wyden - 2026).*
