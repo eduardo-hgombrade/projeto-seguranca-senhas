@@ -32,9 +32,9 @@ O sistema foi desenvolvido sob uma arquitetura de dados robusta:
 ---
 
 ## 👥 Equipe de Desenvolvimento
-* **Eduardo Hennes Gombrade** - Engenharia de Dados & Backend (Pipeline ETL)
-* **Leandro Schiavo de Oliveira** - Ciência de Dados & Frontend (Streamlit / UI)
-* **João Victor Romagnoli Vendito** - Pesquisa Acadêmica & Gestão de Projetos (Documentação)
+* **Eduardo Gombrade** — Análise e Desenvolvimento (Pipeline ETL e Backend)
+* **João Vendito** — Dashboard e Visualizações (Streamlit / Plotly)
+* **Leandro Schiavo** — Documentação (Pesquisa Acadêmica e Roteiro)
 
 ---
 *Projeto desenvolvido para a disciplina de Tópicos de Big Data em Python (UniMetrocamp Wyden - 2026).*
