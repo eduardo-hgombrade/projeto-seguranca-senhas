@@ -32,9 +32,7 @@ A ferramenta auxilia na conscientização sobre boas práticas de segurança dig
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
-Adicione ou altere conforme o projeto:
-
+
 * Python
 * Pandas
 * NumPy
